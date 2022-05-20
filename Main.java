@@ -11,7 +11,7 @@ class FirstClass{
         this.c = c;
     }
     void toSolve(double a, double b, double c){
-        System.out.println(Math.pow((a * b), c));
+        System.out.println(a * Math.pow(b, c));
     }
 }
 
@@ -24,7 +24,7 @@ class SecondClass{
         this.c = c;
     }
     void toSolve(double a, double b, double c){
-        System.out.println(Math.pow((a * b), c));
+        System.out.println(a * Math.pow(b, c));
     }
 }
 
@@ -40,7 +40,7 @@ interface Converter<First, Second>{
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите значения:");
+        System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГї:");
         System.out.print("A: \n");
         double a = in.nextDouble();
         System.out.print("B: \n");
